@@ -32,7 +32,7 @@ How many people have been killed in each state?
 ![](https://ws4.sinaimg.cn/large/006tNbRwly1fvh0x0fv3bj30rs0goq3k.jpg)
 ****
 
-### :star:Thinking
+### :question:Thinking
 The x-axis sticks are too small, I tried using <pre><code>fig.autofmt_xdate()</code></pre> method to solve the problem.  
 But the labels of first two pictures are gone... Don't know what to do...:tired_face:
 
