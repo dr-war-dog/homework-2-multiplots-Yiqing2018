@@ -14,17 +14,17 @@ How many people have been killed on each day between Jan 1st, 2013 - Feb 1st, 20
 ### Question2
 How many people have been killed on each day between Jan 1st, 2013 - Feb 1st, 2013?
 
-    ![](https://ws2.sinaimg.cn/large/006tNbRwly1fvh0wt833wj30rs0gomxc.jpg)
+![](https://ws2.sinaimg.cn/large/006tNbRwly1fvh0wt833wj30rs0gomxc.jpg)
 ****
 ### Question3
 How many people have been killed in each state?
 
-    ![](https://ws4.sinaimg.cn/large/006tNbRwly1fvh0wwrcglj30rs0godgh.jpg)
+![](https://ws4.sinaimg.cn/large/006tNbRwly1fvh0wwrcglj30rs0godgh.jpg)
 ****
 ### Question4
 How many people have been killed in each state?
 
-    ![](https://ws4.sinaimg.cn/large/006tNbRwly1fvh0x0fv3bj30rs0goq3k.jpg)
+![](https://ws4.sinaimg.cn/large/006tNbRwly1fvh0x0fv3bj30rs0goq3k.jpg)
 ****
 
 
