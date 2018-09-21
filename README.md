@@ -1,39 +1,30 @@
 ![](https://ws2.sinaimg.cn/large/006tNbRwly1fvgrxaqgt6j30360360sz.jpg)
-# Homework 1 What is data
+# Homework 2 Multiplots
 
 |Author|Yiqing Liu|
 |---|---
 |E-mail|yiqing5@illinois.edu
 
 ### Question1
-What is the average/mean score of the LA County Resturant Inspections?  
+How many people have been killed on each day between Jan 1st, 2013 - Feb 1st, 2013?
 
-    93.75
+    ![](https://ws1.sinaimg.cn/large/006tNbRwly1fvh0wa8bmij30rs0goaa9.jpg)
+
 ****
 ### Question2
-How many times was facility address 17660 CHATSWORTH ST visited?  
+How many people have been killed on each day between Jan 1st, 2013 - Feb 1st, 2013?
 
-    6
+    ![](https://ws2.sinaimg.cn/large/006tNbRwly1fvh0wt833wj30rs0gomxc.jpg)
 ****
 ### Question3
-How many times was facility city LANCASTER visited?  
+How many people have been killed in each state?
 
-    2371
+    ![](https://ws4.sinaimg.cn/large/006tNbRwly1fvh0wwrcglj30rs0godgh.jpg)
 ****
 ### Question4
-What percentage of times did employee EE0000145 visit any facility?  
+How many people have been killed in each state?
 
-    0.58%
-****
-### Question5
-What percentage of times was facility FA0013858 visited?  
-
-    0.01%
-****
-### Question6
-What percentage of times did employee EE0000593 visit GRANADA HILLS?  
-
-    0.26%
+    ![](https://ws4.sinaimg.cn/large/006tNbRwly1fvh0x0fv3bj30rs0goq3k.jpg)
 ****
 
-![](https://ws2.sinaimg.cn/large/006tNbRwly1fvgrvihpkej30sm0ae0ux.jpg)
+
