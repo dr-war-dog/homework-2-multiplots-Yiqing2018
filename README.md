@@ -34,5 +34,5 @@ How many people have been killed in each state?
 
 ### Thinking
 The x-axis sticks are too small, I tried using <pre><code>fig.autofmt_xdate()</code></pre> method to solve the problem.  
-But the labels of first two pictures are gone... Don't know what to do...
+But the labels of first two pictures are gone... Don't know what to do...:tired_face:
 
