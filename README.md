@@ -6,7 +6,7 @@
 |E-mail|yiqing5@:corn:.edu
 
 ### :star: Mutiplots
-![](https://ws2.sinaimg.cn/large/006tNbRwly1fvh4f12a75j31kw0y5mzc.jpg)
+![](https://ws1.sinaimg.cn/large/006tNbRwly1fvhkl94129j31kw0sgqb3.jpg)
 
 
 
@@ -32,7 +32,8 @@ How many people have been killed in each state?
 ![](https://ws4.sinaimg.cn/large/006tNbRwly1fvh0x0fv3bj30rs0goq3k.jpg)
 ****
 
-### :question:Thinking
-The x-axis sticks are too small, I tried using <pre><code>fig.autofmt_xdate()</code></pre> method to solve the problem.  
-But the labels of first two pictures are gone... Don't know what to do...:tired_face:
+### :white_check_mark: Problem Solved
+The font size of x-axis sticks is small, but considering the size of figure, we have to set it to small size. I tried using <pre><code>fig.autofmt_xdate()</code></pre> method to rotate the sticks. However, it only works for last two pictures.  
+In fact, we could set attributes of sticks to make the rotation! it works for all pictures <pre><code>plt.xticks(fontsize=20,rotation=30)</code></pre>
+
 

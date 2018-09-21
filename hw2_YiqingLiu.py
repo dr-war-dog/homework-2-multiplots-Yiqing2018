@@ -14,16 +14,15 @@ import matplotlib.pyplot as plt
 class Dataset:
 	def __init__(self,filepath):
 		self.data=pd.read_csv(filepath)
-		self.index=1
 
 	def plot_two_columns(self,plt,data,x_column,y_column,title):
 		x = data[x_column]
 		y = data[y_column]
-		plt.bar(x,y,width=0.8)
-		plt.xticks(fontsize=8)
-		plt.title(title,fontsize=30, bbox={'facecolor':'0.8', 'pad':8})
-		plt.xlabel(x_column)
-		plt.ylabel(y_column)
+		plt.bar(x,y,width=0.5)
+		plt.xticks(fontsize=20,rotation=30)
+		plt.title(title,fontsize=60, bbox={'facecolor':'0.8', 'pad':8})
+		plt.xlabel(x_column,fontsize=60)
+		plt.ylabel(y_column,fontsize=60)
 
 	def contional_plot_two_columns(self,plt,x_column,y_column,title,start_date,end_date):
 		data=self.data[self.data[x_column]>=start_date]
@@ -40,7 +39,7 @@ def main():
 	fig = plt.figure(22)
 	fig.suptitle('Multiplots',fontsize=60)
 	fig.tight_layout()
-	plt.subplots_adjust(wspace =0.2, hspace =0.2)
+	plt.subplots_adjust(wspace =0.2, hspace =0.5)
 	plt.subplot(221)
 	d.contional_plot_two_columns(plt,'date','n_injured','how many people get injured','2013-01-01','2013-02-01')
 	plt.subplot(222)
@@ -49,7 +48,7 @@ def main():
 	d.simple_plot_two_columns(plt,'state','n_injured','how many people get injured')
 	plt.subplot(224)
 	d.simple_plot_two_columns(plt,'state','n_killed','how many people get killed')
-	fig.set_size_inches(30,18)
+	fig.set_size_inches(60,30)
 	plt.savefig('/Users/yiqingliu/Google Drive/IS590DV/hw2/hw2_YiqingLiu.png')
 
 if __name__=='__main__':
