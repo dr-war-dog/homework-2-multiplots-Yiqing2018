@@ -1,32 +1,32 @@
 ![](https://ws2.sinaimg.cn/large/006tNbRwly1fvgrxaqgt6j30360360sz.jpg)
 # Homework 2 Multiplots
 
-|Author|Yiqing Liu|
+|Author|Yiqing Liu:high_brightness:|
 |---|---
-|E-mail|yiqing5@illinois.edu
+|E-mail|yiqing5@illinois.edu:corn:
 
-### Mutiplots
-![](https://ws1.sinaimg.cn/large/006tNbRwly1fvh3xjxatxj31kw1bfmzm.jpg)
+### :pencil:Mutiplots
+![](https://ws2.sinaimg.cn/large/006tNbRwly1fvh4f12a75j31kw0y5mzc.jpg)
 
 
 
-### Question1
+### :pencil:Question1
 How many people have been injured on each day between Jan 1st, 2013 - Feb 1st, 2013?
 
 ![](https://ws1.sinaimg.cn/large/006tNbRwly1fvh0wa8bmij30rs0goaa9.jpg)
 
 ****
-### Question2
+### :pencil:Question2
 How many people have been killed on each day between Jan 1st, 2013 - Feb 1st, 2013?
 
 ![](https://ws2.sinaimg.cn/large/006tNbRwly1fvh0wt833wj30rs0gomxc.jpg)
 ****
-### Question3
+### :pencil:Question3
 How many people have been injured in each state?
 
 ![](https://ws4.sinaimg.cn/large/006tNbRwly1fvh0wwrcglj30rs0godgh.jpg)
 ****
-### Question4
+### :pencil:Question4
 How many people have been killed in each state?
 
 ![](https://ws4.sinaimg.cn/large/006tNbRwly1fvh0x0fv3bj30rs0goq3k.jpg)

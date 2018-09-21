@@ -49,7 +49,7 @@ def main():
 	d.simple_plot_two_columns(plt,'state','n_injured','how many people get injured')
 	plt.subplot(224)
 	d.simple_plot_two_columns(plt,'state','n_killed','how many people get killed')
-	fig.set_size_inches(30,25)
+	fig.set_size_inches(30,18)
 	plt.savefig('/Users/yiqingliu/Google Drive/IS590DV/hw2/hw2_YiqingLiu.png')
 
 if __name__=='__main__':
