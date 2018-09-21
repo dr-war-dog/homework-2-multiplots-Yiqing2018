@@ -1,4 +1,4 @@
-![](https://ws2.sinaimg.cn/large/006tNbRwly1fvgrxaqgt6j30360360sz.jpg)
+![](https://ws2.sinaimg.cn/large/006tNbRwly1fvh4yrw483j307g07kgn3.jpg))
 # Homework 2 Multiplots
 
 |Author|Yiqing Liu|
