@@ -15,32 +15,42 @@ class Dataset:
 	def __init__(self,filepath):
 		self.data=pd.read_csv(filepath)
 		self.index=1
-	def plot_two_columns(self,data,x_column,y_column,title):
-		fig = plt.figure()
+
+	def plot_two_columns(self,plt,data,x_column,y_column,title):
 		x = data[x_column]
 		y = data[y_column]
 		plt.bar(x,y,width=0.8)
 		plt.xticks(fontsize=8)
-		fig.autofmt_xdate()
-		plt.title(title, bbox={'facecolor':'0.8', 'pad':5})
+		plt.title(title,fontsize=30, bbox={'facecolor':'0.8', 'pad':8})
 		plt.xlabel(x_column)
 		plt.ylabel(y_column)
-		fig.set_size_inches(10, 6)
-		plt.savefig('/Users/yiqingliu/Google Drive/IS590DV/hw2/'+str(self.index)+'.png')
-		self.index=self.index+1
-	def contional_plot_two_columns(self,x_column,y_column,title,start_date,end_date):
+
+	def contional_plot_two_columns(self,plt,x_column,y_column,title,start_date,end_date):
 		data=self.data[self.data[x_column]>=start_date]
 		data=data[data[x_column]<=end_date]
-		self.plot_two_columns(data,x_column,y_column,title)
-	def simple_plot_two_columns(self,x_column,y_column,title):
+		self.plot_two_columns(plt,data,x_column,y_column,title)
+
+	def simple_plot_two_columns(self,plt,x_column,y_column,title):
 		data=self.data
-		self.plot_two_columns(data,x_column,y_column,title)
+		self.plot_two_columns(plt,data,x_column,y_column,title)
 
 def main():
+
 	d=Dataset("gun-violence.csv")
-	d.contional_plot_two_columns('date','n_injured','how many people get injured','2013-01-01','2013-02-01')
-	d.contional_plot_two_columns('date','n_killed','how many people get killed','2013-01-01','2013-02-01')
-	d.simple_plot_two_columns('state','n_injured','how many people get injured')
-	d.simple_plot_two_columns('state','n_killed','how many people get killed')
+	fig = plt.figure(22)
+	fig.suptitle('Multiplots',fontsize=60)
+	fig.tight_layout()
+	plt.subplots_adjust(wspace =0.2, hspace =0.2)
+	plt.subplot(221)
+	d.contional_plot_two_columns(plt,'date','n_injured','how many people get injured','2013-01-01','2013-02-01')
+	plt.subplot(222)
+	d.contional_plot_two_columns(plt,'date','n_killed','how many people get killed','2013-01-01','2013-02-01')
+	plt.subplot(223)
+	d.simple_plot_two_columns(plt,'state','n_injured','how many people get injured')
+	plt.subplot(224)
+	d.simple_plot_two_columns(plt,'state','n_killed','how many people get killed')
+	fig.set_size_inches(30,25)
+	plt.savefig('/Users/yiqingliu/Google Drive/IS590DV/hw2/hw2_YiqingLiu.png')
+
 if __name__=='__main__':
 	main()
