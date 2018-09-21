@@ -8,7 +8,7 @@
 ### Question1
 How many people have been killed on each day between Jan 1st, 2013 - Feb 1st, 2013?
 
-    ![](https://ws1.sinaimg.cn/large/006tNbRwly1fvh0wa8bmij30rs0goaa9.jpg)
+ ![](https://ws1.sinaimg.cn/large/006tNbRwly1fvh0wa8bmij30rs0goaa9.jpg)
 
 ****
 ### Question2
